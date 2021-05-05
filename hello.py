@@ -13,7 +13,7 @@ def lambda_handler(event, context):
 exports.handler = async (event) => {
     const response = {
         statusCode: 200,
-        body: JSON.stringify('Hello from KleberP '),
+        body: JSON.stringify('Hello from KleberPs '),
     };
     return response;
 };
