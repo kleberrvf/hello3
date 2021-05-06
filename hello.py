@@ -1,13 +1,10 @@
-import boto3
-pipeline = boto3.client('CodePipeline')
+import json
 
 def lambda_handler(event, context):
+    # TODO implement
+    return {
+        'statusCode': 200,
+        'body': json.dumps('Hello from Lambda!')
+    }
 
-    # stuff
-
-    response = pipeline.put_job_success_result(
-        jobId=event['CodePipeline.job']['id']
-    )
-    return response
-
-print "Hello Wohooooooo"
+print ("Hello2")
