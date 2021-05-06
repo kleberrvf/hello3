@@ -10,4 +10,4 @@ def lambda_handler(event, context):
     )
     return response
 
-print "Hello Wohooo"
+print "Hello Wohooooooo"
