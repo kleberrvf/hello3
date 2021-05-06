@@ -10,11 +10,4 @@ def lambda_handler(event, context):
     )
     return response
 
-exports.handler = async (event) => {
-    const response = {
-        statusCode: 200,
-        body: JSON.stringify('Hello from KleberPS '),
-    };
-    return response;
-};
-
+print "Hello Wohooo"
